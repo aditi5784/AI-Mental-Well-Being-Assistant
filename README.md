@@ -1,58 +1,67 @@
-#AI Mental Well-Being Assistant
+AI Mental Well-Being Assistant
 
-An AI-driven application to support mental health, providing journaling, sentiment analysis, relaxation exercises, and personalized feedback to help manage emotional well-being.
+An AI-driven application designed to support mental health by providing journaling, sentiment analysis, relaxation exercises, and personalized feedback to help users manage emotional well-being.
 
-##Features
+Features
 
-###Journaling: Safely write and store emotional entries with sentiment analysis and AI reflections.
+Journaling: Safely write and store emotional entries with sentiment analysis and AI reflections.
 
-###Relaxation Tools: Guided breathing and mindfulness exercises.
+Relaxation Tools: Guided breathing and mindfulness exercises.
 
-###Personalized Recommendations: Daily well-being tips and suggestions.
+Personalized Recommendations: Daily well-being tips and suggestions.
 
-###Safety Panel: Emergency resources and grounding techniques.
+Safety Panel: Emergency resources and grounding techniques.
 
-##Installation
+Installation
+1. Install Python
 
-Install Python 3.10+: Download Python
+Python 3.10 or higher
 
-Set up a Virtual Environment:
-
+2. Set Up Virtual Environment
 python -m venv venv
-venv\Scripts\activate (Windows) or source venv/bin/activate (macOS/Linux)
 
 
-##Install Dependencies:
+Activate:
 
+Windows
+
+venv\Scripts\activate
+
+
+macOS / Linux
+
+source venv/bin/activate
+
+3. Install Dependencies
 pip install -r requirements.txt
 
+4. Set OpenAI API Key
 
-Set OpenAI API Key: Create a .env file and add:
+Create a .env file and add:
 
 OPENAI_API_KEY=your_api_key_here
 
-
-##Run the Application:
-
+5. Run the Application
 streamlit run app.py
 
 
-Open the app at http://localhost:8501 in your browser.
+Open in browser:
+http://localhost:8501
 
-##Project Structure
-/app.py             - Main app
+Project Structure
+/app.py             - Main application
 /agents.py          - AI agents for emotional support
-/sentiment.py       - Sentiment analysis
-/storage.py         - Local storage (JSON)
+/sentiment.py       - Sentiment analysis module
+/storage.py         - Local JSON storage
 /tools_ui.py        - UI modules
 /data/journal.json  - Journal entries
 
-##Technologies Used
+Technologies Used
 
 Python 3.10+
 
-Streamlit for UI
+Streamlit – User Interface
 
-OpenAI API for AI-driven responses
+OpenAI API – AI-driven responses
 
-TextBlob for sentiment analysis
+TextBlob – Sentiment analysis
