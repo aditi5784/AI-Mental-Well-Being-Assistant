@@ -1,8 +1,8 @@
-AI Mental Well-Being Assistant
+# AI Mental Well-Being Assistant
 
 An AI-driven application designed to support mental health by providing journaling, sentiment analysis, relaxation exercises, and personalized feedback to help users manage emotional well-being.
 
-Features
+# Features
 
 Journaling: Safely write and store emotional entries with sentiment analysis and AI reflections.
 
@@ -12,7 +12,7 @@ Personalized Recommendations: Daily well-being tips and suggestions.
 
 Safety Panel: Emergency resources and grounding techniques.
 
-Installation
+# Installation
 1. Install Python
 
 Python 3.10 or higher
@@ -45,7 +45,7 @@ OPENAI_API_KEY=your_api_key_here
 streamlit run app.py
 
 
-Open in browser:
+# Open in browser:
 http://localhost:8501
 
 Project Structure
@@ -56,7 +56,7 @@ Project Structure
 /tools_ui.py        - UI modules
 /data/journal.json  - Journal entries
 
-Technologies Used
+# Technologies Used
 
 Python 3.10+
 
